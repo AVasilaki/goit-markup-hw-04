@@ -118,6 +118,10 @@ body {
 /* герой */
 .hero {
   padding: 188px 0;
+  background-image: url(../images/people-office1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   background-color: #2e2f42;
 }
 .title.main-title {
@@ -132,7 +136,6 @@ body {
   margin-bottom: 48px;
   /* WHITE */
   color: #ffffff;
-  background-color: #2e2f42;
 }
 /* кнопки */
 .button {
