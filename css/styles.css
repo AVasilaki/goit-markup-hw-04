@@ -118,9 +118,13 @@ body {
 /* герой */
 .hero {
   padding: 188px 0;
-  background-image: url(../images/people-office1.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office1.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1448px cover;
   background-position: center;
   background-color: #2e2f42;
 }
