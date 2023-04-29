@@ -243,6 +243,23 @@ body {
 .teamcard-posithon {
   text-align: center;
 }
+/* іальні іконки */
+.icons-list {
+  display: flex;
+  gap: 24px;
+}
+.social-icons {
+  width: 40px;
+  height: 40px;
+}
+.social-lincs {
+  display: block;
+  border: 3px dashed tomato;
+  width: 100%;
+  height: 100%;
+}
+.sotial-svg {
+}
 
 /* підвал */
 .footer {
