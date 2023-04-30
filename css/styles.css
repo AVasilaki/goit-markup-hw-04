@@ -278,7 +278,13 @@ body {
   /* NAVY BLUE */
   background: #2e2f42;
 }
-
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-ad {
+  margin-right: 120px;
+}
 .footer-text {
   max-width: 264px;
   /* CLOUD */
@@ -291,6 +297,15 @@ body {
   display: inline-block;
   margin-bottom: 16px;
   margin-right: 0;
+}
+.footer-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  /* WHITE */
+  color: var(--background-color);
+  margin-bottom: 16px;
 }
 /* списки */
 .list {
