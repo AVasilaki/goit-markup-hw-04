@@ -12,6 +12,7 @@
   --nav-link-color: #2e2f42;
   /* колір активних посилань у шапці і кнопки на герої */
   --nav-link-hover: #404bbf;
+  --customers-color: #8e8f99;
 }
 /* глобальні для баді */
 body {
@@ -243,6 +244,51 @@ body {
 .teamcard-posithon {
   text-align: center;
   margin-bottom: 8px;
+}
+/* customers links */
+.section-customers {
+  padding: 120px 0;
+}
+.customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  /* NAVY BLUE */
+  color: var(--nav-link-color);
+  margin-bottom: 72px;
+}
+.customers-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.customers-item {
+  flex-basis: calc(100%-120px / 6);
+  max-width: 168px;
+  padding: 16px 32px;
+  border: 1px solid var(--customers-color);
+  border-radius: 4px;
+}
+.customers-item:hover .customers-item:focus {
+  border: 1px solid var(--btn-color);
+}
+.customers-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: var(--customers-color);
+}
+.customers-link:hover .customers-link:focus {
+  border: 1px solid var(--btn-color);
+  color: var(--btn-color);
+}
+.svg-customers {
+  fill: currentColor;
+  width: 104px;
+  height: 56px;
 }
 /* соціальні іконки */
 .icons-list {
