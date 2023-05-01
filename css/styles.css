@@ -339,6 +339,9 @@ body {
   /* NAVY BLUE */
   background: #2e2f42;
 }
+.footer-hover:hover {
+  background-color: #31d0aa;
+}
 .footer-container {
   display: flex;
   align-items: baseline;
@@ -352,6 +355,7 @@ body {
 }
 .footer-text {
   max-width: 264px;
+
   /* CLOUD */
   color: #f4f4fd;
 }
@@ -413,8 +417,8 @@ body {
   color: #ffffff;
   background-color: #404bbf;
   border: 1px solid transparent;
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12),
-    inset 0px 3px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .samples-list-portfolio {
   display: flex;
@@ -426,6 +430,9 @@ body {
 
 .samples-list-portfolio:nth-last-child(-n + 3) {
   margin-bottom: 0;
+}
+.portfolio-cards {
+  display: block;
 }
 /* ховер для карток портфоліо */
 .portfolio-cards:hover {
