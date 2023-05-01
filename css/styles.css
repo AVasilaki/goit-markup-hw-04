@@ -127,7 +127,8 @@ body {
     ),
     url(../images/people-office1.jpg);
   background-repeat: no-repeat;
-  background-size: 1448px cover;
+
+  background-size: cover 1440px;
   background-position: center;
   background-color: #2e2f42;
 }
@@ -179,7 +180,15 @@ body {
   background-color: #404bbf;
 }
 /* секція2 майбутнє */
-
+.feature-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 .feature-description {
   padding: 120px 0;
 }
@@ -218,10 +227,7 @@ body {
   background-color: #f4f4fd;
 }
 .card-content {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 32px 0;
 }
 
 /* колір фону для фото команди */
@@ -297,6 +303,7 @@ body {
 .icons-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 .social-icons {
   width: 40px;
@@ -314,9 +321,11 @@ body {
   width: 100%;
   height: 100%;
 }
+.social-lincs:hover,
+.social-lincs:focus {
+  background-color: #404bbf;
+}
 .sotial-svg {
-  width: 16px;
-  height: 16px;
   fill: currentColor;
 }
 
