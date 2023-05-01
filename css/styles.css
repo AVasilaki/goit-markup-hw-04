@@ -53,6 +53,8 @@ body {
 .header {
   border-bottom: 1px solid #e7e9fc;
   padding: 24px 0;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container-header {
   display: flex;
@@ -267,23 +269,24 @@ body {
 }
 .customers-item {
   flex-basis: calc(100%-120px / 6);
-  max-width: 168px;
-  padding: 16px 32px;
-  border: 1px solid var(--customers-color);
-  border-radius: 4px;
+  width: 168px;
+  height: 88px;
 }
-.customers-item:hover .customers-item:focus {
-  border: 1px solid var(--btn-color);
-}
+
 .customers-link {
-  display: block;
+  display: flex;
   width: 100%;
   height: 100%;
+  border: 1px solid var(--customers-color);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
   color: var(--customers-color);
 }
-.customers-link:hover .customers-link:focus {
-  border: 1px solid var(--btn-color);
-  color: var(--btn-color);
+.customers-link:hover,
+.customers-link:focus {
+  border: 1px solid #404bbf;
+  color: #404bbf;
 }
 .svg-customers {
   fill: currentColor;
