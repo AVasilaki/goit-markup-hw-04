@@ -340,6 +340,10 @@ body {
   display: flex;
   align-items: baseline;
 }
+.footer-icons-list {
+  display: flex;
+  gap: 16px;
+}
 .footer-ad {
   margin-right: 120px;
 }
