@@ -339,7 +339,8 @@ body {
   /* NAVY BLUE */
   background: #2e2f42;
 }
-.footer-hover:hover {
+.footer-hover:hover,
+.footer-hover:focus {
   background-color: #31d0aa;
 }
 .footer-container {
