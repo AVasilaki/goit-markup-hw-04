@@ -127,8 +127,11 @@ body {
     ),
     url(../images/people-office1.jpg);
   background-repeat: no-repeat;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 
-  background-size: cover 1440px;
+  background-size: cover;
   background-position: center;
   background-color: #2e2f42;
 }
@@ -326,7 +329,7 @@ body {
   background-color: #404bbf;
 }
 .sotial-svg {
-  fill: currentColor;
+  fill: var(--filter-btn);
 }
 
 /* підвал */
